@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: rollouts-simple-java
+  namespace: testargo
 spec:
   replicas: 3
   strategy:
